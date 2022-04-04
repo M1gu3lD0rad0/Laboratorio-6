@@ -7,13 +7,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <title>Inicio</title>
+    <style>
+      body{
+        background-image: url("multimedia/fondo.jpg");
+        background-repeat: repeat-y;
+        background-size: 100%;
+      }
+      .abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+    </style>
 </head>
 <body>
-    <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
+  <br><br>
+    <nav  class="navbar navbar-expand-lg navbar-light p-3 bg-light" id="menu">
         <div class="container">
-          <a class="navbar-brand" href="#">
-              <span class="fs-5 text-primary fw-bold">Index</span>
+          <a class="navbar-brand d-flex w-80" href="index.html">
+              <span class="fs-5 text-dark fw-bold">Inicio</span>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -21,21 +34,101 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="pagina1.html">Página 1</a>
+                <a class="nav-link fs-5 text-dark" aria-current="page" href="pagina1.html">Reglamento de torneos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pagina2.html">Página 2</a>
+                <a class="nav-link fs-5 text-dark" href="pagina2.html">Personajes jugables</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pagina3.html">Página 3</a>
+                <a class="nav-link fs-5 text-dark" href="pagina3.html">Mi experiencia</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet doloremque accusantium molestias provident et, dolorem fuga tenetur sed aspernatur ut quibusdam voluptatem eos ad possimus, aliquid earum, expedita cum animi.</p>
-      <img src="imagen.jpg">
+      <div class="container bg-secondary">
+        <br><br>
+      <div class="row">
+      <h4 class="fs-1 fw-bold ps-2 text-light text-center ">¿Qué es Super Smash Bros Ultimate?</h4>
+      <div class="card bg-transparent border-0 col-12 col-lg-8 p-3">
+      <p class="fs-2 p-3 mb-2 text-light text-center">Super Smash Bros es un videojuego desarrollado por la compañía Japonesa Nintendo. Es un juego de peleas en plataformas donde se destaca por su jugabilidad caótica y aérea, lo que hace que se diferencie bastante de los juegos de lucha tradicionales</p>
+      </div>
+      <div class="card bg-transparent border-0 col-12 col-lg-4 p-3 ">
+      <abbr title="La edición actual, Ultimate del  año 2018"><img src="multimedia/SMASH.jpg" class="w-75 "></abbr>
+      </div>
+      <br><br>
+      </div>
+      <div class="row">
+        <h4 class="fs-1 fw-bold ps-2 text-light text-center ">¿Cómo es su competitivo?</h4>
+        <div class="card bg-transparent border-0 col-12 p-3">
+        <p class="fs-2 text-light text-center p-3 mb-2">Al ser un juego de peleas, los jugadores se la pasan jugando contra otros para obtener la victoria, lo que hace que algunos jugadores busquen ser mejores, practicando y encontrando técnicas y estrategias para ser mejores jugadores. Aquí es donde nace su ambiente competitivo, donde se establecieron reglas y formatos para que los jugadores puedan demostrar sus habilidades en igualdad de condiciones.</p>
+        </div>
+        <div class="card bg-transparent border-0 col-12 p-3 d-flex align-items-center justify-content-center">
+        <video autoplay="true" muted loop controls src="multimedia/video1.mp4" class="w-75" ></video>
+        </div>
+        <p class="fs-2 text-light text-center p-3 mb-2">Existen 82 personajes jugables, donde hay un gran balance de equilibrio entre ellos, pero como en todo videojuego hay opciones más viables  que otras, y por el contrario, opciones riesgosas. Aún así, Super Smash Bros es un juego que no depende únicamente de la viabilidad de los personajes, si no que también existen estrategias de juego para sacar el máximo potencial de los jugadores.</p>
+        <br><br>
+        </div>
+      <div class="row">
+        <h4 class="fs-1 fw-bold ps-2 text-light text-center ">Jugadores profesionales</h4>
+        <div class="card bg-transparent border-0 col-12 col-lg-4 p-3 ">
+          <img src="multimedia/mkleo.png" class="w-100 p-2 mb-2">
+          </div>
+        <div class="card bg-transparent border-0 col-12 col-lg-8 p-3">
+        <h6 class="fs-2 fw-bold ps-2 text-light text-left ">MkLeo</h6>
+        <p class="fs-2 p-3 mb-2 text-light text-center">Considerado actualmente el mejor jugador del mundo, MkLeo es un jugador mexicano de 24 años que desde pequeño jugó Super Smash Bros, participando en torneos y ganando desde que tenía 10 años. Sus personajes principales son Joker y Byleth.</p>
+        </div>
+        <div class="card bg-transparent border-0 col-12 col-lg-4 p-3 ">
+          <img src="multimedia/spargo.png" class="w-100 p-2 mb-2">
+          </div>
+        <div class="card bg-transparent border-0 col-12 col-lg-8 p-3">
+        <h6 class="fs-2 fw-bold ps-2 text-light text-left ">Sparg0</h6>
+        <p class="fs-2 p-3 mb-2 text-light text-center">Otro jugador mexicano, solo que entró muy joven a las competencias más grandes donde ya tenía grandes resultados, ganando torneos y venciendo en algunas ocasiones a MkLeo, por lo que la comunidad cree que podría ser el siguiente campeón en unos años.</p>
+        </div>
+        <br><br>
+        </div>
+        <footer class="fs-4 fw-bold text-dark">Datos</footer>
+        <table  class=" table table-warning w-50">
+          <tr>
+              <th>Nombre</th>
+              <td>Miguel Armando Dorado Quintanilla</td> 
+          </tr>
+          <tr>
+              <th>Matrícula</th>
+              <td>1898136</td>
+          </tr>
+          <tr>
+              <th>Clase</th>
+              <td>Laboratorio de Programación Web</td>
+          </tr>
+          <tr>
+              <th>Grupo</th>
+              <td>416</td>
+          </tr>
+          <tr>
+              <th>Día</th>
+              <td>Jueves</td>
+          </tr>
+          <tr>
+              <th>Hora</th>
+              <td>V6</td>
+          </tr>
+          <tr>
+              <th>Maestro</th>
+              <td>Luis Daniel Lepe Rodríguez</td>
+          </tr>
+      </table>   
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
       <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+      <script>
+        <script>
+  var popoverTriggerList = [].slice.call(
+    document.querySelectorAll('[data-bs-toggle="popover"]')
+  );
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl);
+  });
+      </script>
 </body>
 </html>
